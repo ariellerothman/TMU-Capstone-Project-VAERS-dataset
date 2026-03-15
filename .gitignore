@@ -1,3 +1,12 @@
+# Generated data outputs
+Outputs/*.csv
+
+# Optional generated tabular artifacts at repo root
+*.csv
+
+# Keep raw source data tracked only if you want it versioned.
+# If not, uncomment:
+# COMBINED_DATA_ALL_YEARS.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
