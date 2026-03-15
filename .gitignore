@@ -1,5 +1,10 @@
 # Generated data outputs
 Outputs/*.csv
+Outputs/*.npy
+Outputs/*.npz
+Outputs/*.pkl
+Outputs/*.h5
+Outputs/*.hdf5
 
 # Optional generated tabular artifacts at repo root
 *.csv
