@@ -129,8 +129,6 @@ Main artifacts are written to `Outputs/`, including:
 - monthly trend and regression outputs
 - figures for reporting
 
-**Note:** generated CSV outputs are local analysis artifacts and should generally not be committed to the repository.
-
 ---
 
 ## Limitations
