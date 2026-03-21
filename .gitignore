@@ -1,17 +1,19 @@
-# Generated data outputs
-Outputs/*.csv
+# ── Large generated datasets (too big for GitHub) ────────────────────────────
+Outputs/df_clean_imputed.csv
+Outputs/df_clean_engineered.csv
+Outputs/comorbidity_indicators.csv
+
+# Binary array artifacts from clustering
 Outputs/*.npy
 Outputs/*.npz
+
+# Other large serialized objects
 Outputs/*.pkl
 Outputs/*.h5
 Outputs/*.hdf5
 
-# Optional generated tabular artifacts at repo root
-*.csv
-
-# Keep raw source data tracked only if you want it versioned.
-# If not, uncomment:
-# COMBINED_DATA_ALL_YEARS.csv
+# Raw source data (>1 GB – download from Kaggle; see README)
+COMBINED_DATA_ALL_YEARS.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -76,6 +78,4 @@ venv.bak/
 Thumbs.db
 
 # Project specific
-*.csv
-!COMBINED_DATA_*.csv
 .cache/

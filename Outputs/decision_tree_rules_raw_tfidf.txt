@@ -1,0 +1,94 @@
+|--- num__NUMDAYS <= 0.00
+|   |--- binary__LAB_DATA_MISSING <= 0.50
+|   |   |--- binary__LAB_DATA__other <= 0.50
+|   |   |   |--- date delivery <= 0.07
+|   |   |   |   |--- appropriate section <= 0.41
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- appropriate section >  0.41
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- date delivery >  0.07
+|   |   |   |   |--- inhaler <= 0.15
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- inhaler >  0.15
+|   |   |   |   |   |--- class: 1
+|   |   |--- binary__LAB_DATA__other >  0.50
+|   |   |   |--- concomitant <= 0.21
+|   |   |   |   |--- iv <= 0.03
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- iv >  0.03
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- concomitant >  0.21
+|   |   |   |   |--- care <= 0.03
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- care >  0.03
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |--- binary__LAB_DATA_MISSING >  0.50
+|   |   |--- called <= 0.08
+|   |   |   |--- iv <= 0.04
+|   |   |   |   |--- cause <= 0.06
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- cause >  0.06
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- iv >  0.04
+|   |   |   |   |--- events did <= 0.07
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- events did >  0.07
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- called >  0.08
+|   |   |   |--- arrived <= 0.03
+|   |   |   |   |--- information <= 0.11
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- information >  0.11
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- arrived >  0.03
+|   |   |   |   |--- home <= 0.07
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- home >  0.07
+|   |   |   |   |   |--- truncated branch of depth 7
+|--- num__NUMDAYS >  0.00
+|   |--- concomitant <= 0.15
+|   |   |--- num__NUMDAYS <= 0.00
+|   |   |   |--- injection <= 0.12
+|   |   |   |   |--- binary__LAB_DATA__vitals_procedures <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- binary__LAB_DATA__vitals_procedures >  0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- injection >  0.12
+|   |   |   |   |--- binary__LAB_DATA_MISSING <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- binary__LAB_DATA_MISSING >  0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |--- num__NUMDAYS >  0.00
+|   |   |   |--- num__AGE_YRS <= 0.56
+|   |   |   |   |--- positive <= 0.21
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- positive >  0.21
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- num__AGE_YRS >  0.56
+|   |   |   |   |--- paxlovid <= 0.18
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- paxlovid >  0.18
+|   |   |   |   |   |--- truncated branch of depth 9
+|   |--- concomitant >  0.15
+|   |   |--- events <= 0.04
+|   |   |   |--- event <= 0.05
+|   |   |   |   |--- binary__ALLERGIES_MISSING <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- binary__ALLERGIES_MISSING >  0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- event >  0.05
+|   |   |   |   |--- moderna <= 0.01
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- moderna >  0.01
+|   |   |   |   |   |--- truncated branch of depth 14
+|   |   |--- events >  0.04
+|   |   |   |--- consumer describes <= 0.29
+|   |   |   |   |--- binary__LAB_DATA__vitals_procedures <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- binary__LAB_DATA__vitals_procedures >  0.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- consumer describes >  0.29
+|   |   |   |   |--- events <= 0.15
+|   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |--- events >  0.15
+|   |   |   |   |   |--- truncated branch of depth 8
