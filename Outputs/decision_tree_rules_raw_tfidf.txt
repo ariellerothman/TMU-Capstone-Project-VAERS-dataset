@@ -1,27 +1,27 @@
-|--- num__NUMDAYS <= 0.00
+|--- num__ONSET_INTERVAL <= 0.00
 |   |--- binary__LAB_DATA_MISSING <= 0.50
 |   |   |--- binary__LAB_DATA__other <= 0.50
-|   |   |   |--- date delivery <= 0.07
-|   |   |   |   |--- appropriate section <= 0.41
+|   |   |   |--- mrna moderna <= 0.37
+|   |   |   |   |--- available appropriate <= 0.39
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- appropriate section >  0.41
+|   |   |   |   |--- available appropriate >  0.39
 |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |--- date delivery >  0.07
-|   |   |   |   |--- inhaler <= 0.15
+|   |   |   |--- mrna moderna >  0.37
+|   |   |   |   |--- relationship <= 0.12
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- relationship >  0.12
 |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |--- inhaler >  0.15
-|   |   |   |   |   |--- class: 1
 |   |   |--- binary__LAB_DATA__other >  0.50
 |   |   |   |--- concomitant <= 0.21
-|   |   |   |   |--- iv <= 0.03
+|   |   |   |   |--- arm <= 0.05
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- iv >  0.03
+|   |   |   |   |--- arm >  0.05
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |--- concomitant >  0.21
 |   |   |   |   |--- care <= 0.03
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |   |--- care >  0.03
-|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |--- truncated branch of depth 15
 |   |--- binary__LAB_DATA_MISSING >  0.50
 |   |   |--- called <= 0.08
 |   |   |   |--- iv <= 0.04
@@ -36,59 +36,59 @@
 |   |   |   |   |   |--- truncated branch of depth 2
 |   |   |--- called >  0.08
 |   |   |   |--- arrived <= 0.03
-|   |   |   |   |--- information <= 0.11
+|   |   |   |   |--- taken <= 0.17
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- information >  0.11
+|   |   |   |   |--- taken >  0.17
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |--- arrived >  0.03
-|   |   |   |   |--- home <= 0.07
+|   |   |   |   |--- home <= 0.08
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- home >  0.07
-|   |   |   |   |   |--- truncated branch of depth 7
-|--- num__NUMDAYS >  0.00
+|   |   |   |   |--- home >  0.08
+|   |   |   |   |   |--- truncated branch of depth 4
+|--- num__ONSET_INTERVAL >  0.00
 |   |--- concomitant <= 0.15
 |   |   |--- num__NUMDAYS <= 0.00
-|   |   |   |--- injection <= 0.12
+|   |   |   |--- site <= 0.11
 |   |   |   |   |--- binary__LAB_DATA__vitals_procedures <= 0.50
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |   |--- binary__LAB_DATA__vitals_procedures >  0.50
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |--- injection >  0.12
-|   |   |   |   |--- binary__LAB_DATA_MISSING <= 0.50
-|   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- binary__LAB_DATA_MISSING >  0.50
-|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |--- site >  0.11
+|   |   |   |   |--- red <= 0.20
+|   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |--- red >  0.20
+|   |   |   |   |   |--- truncated branch of depth 3
 |   |   |--- num__NUMDAYS >  0.00
-|   |   |   |--- num__AGE_YRS <= 0.56
+|   |   |   |--- num__AGE_YRS <= 0.54
 |   |   |   |   |--- positive <= 0.21
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |   |--- positive >  0.21
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |--- num__AGE_YRS >  0.56
-|   |   |   |   |--- paxlovid <= 0.18
+|   |   |   |--- num__AGE_YRS >  0.54
+|   |   |   |   |--- doctor <= 0.14
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- paxlovid >  0.18
-|   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |--- doctor >  0.14
+|   |   |   |   |   |--- truncated branch of depth 16
 |   |--- concomitant >  0.15
 |   |   |--- events <= 0.04
 |   |   |   |--- event <= 0.05
 |   |   |   |   |--- binary__ALLERGIES_MISSING <= 0.50
-|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- truncated branch of depth 4
 |   |   |   |   |--- binary__ALLERGIES_MISSING >  0.50
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |--- event >  0.05
-|   |   |   |   |--- moderna <= 0.01
+|   |   |   |   |--- dose mrna <= 0.20
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |   |--- moderna >  0.01
-|   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |--- dose mrna >  0.20
+|   |   |   |   |   |--- truncated branch of depth 7
 |   |   |--- events >  0.04
-|   |   |   |--- consumer describes <= 0.29
+|   |   |   |--- consumer describes <= 0.28
 |   |   |   |   |--- binary__LAB_DATA__vitals_procedures <= 0.50
 |   |   |   |   |   |--- truncated branch of depth 16
 |   |   |   |   |--- binary__LAB_DATA__vitals_procedures >  0.50
 |   |   |   |   |   |--- truncated branch of depth 16
-|   |   |   |--- consumer describes >  0.29
-|   |   |   |   |--- events <= 0.15
-|   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |--- events >  0.15
-|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |--- consumer describes >  0.28
+|   |   |   |   |--- events <= 0.14
+|   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |--- events >  0.14
+|   |   |   |   |   |--- truncated branch of depth 13

@@ -219,6 +219,12 @@ All artifacts are written to `Outputs/`:
 
 ---
 
+## AI Tools
+
+GitHub Copilot and ChatGPT were used selectively to assist with code refinement, debugging, and documentation, with all outputs manually reviewed and adapted for the project context.
+
+---
+
 ## Reproducibility
 
 1. Download the raw data from Kaggle (see Dataset section above)
