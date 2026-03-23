@@ -1,7 +1,9 @@
 # ── Large generated datasets (too big for GitHub) ────────────────────────────
 Outputs/df_clean_imputed.csv
 Outputs/df_clean_engineered.csv
+Outputs/df_clean_with_clusters.csv
 Outputs/comorbidity_indicators.csv
+Outputs/symptom_text_clean_variants_cluster_only.csv
 
 # Binary array artifacts from clustering
 Outputs/*.npy
