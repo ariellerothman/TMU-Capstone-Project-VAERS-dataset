@@ -1,1134 +1,1462 @@
 feature,num_splits
-num__AGE_YRS,66
-num__NUMDAYS,31
-patient,28
-num__ONSET_INTERVAL,22
-covid,20
-vaccine,18
-arm,18
-care,18
-days,16
-went,15
-positive,15
-injection,14
-pain,13
-lasted,12
+num__AGE_YRS,93
+patient,43
+covid,36
+went,35
+num__NUMDAYS,33
+care,31
+num__ONSET_INTERVAL,29
+arm,29
+doctor,28
+injection,28
+rash,24
+day,23
+positive,23
+days,23
+headache,21
+symptoms,20
+vaccine,20
+site,20
+vaccination,19
+fever,19
+dose,18
+pain,18
+binary__OTHER_MEDS_MISSING,18
+time,17
+binary__ALLERGIES_MISSING,16
+blood,16
+received,15
+chest,15
+hours,14
+binary__MANU__MODERNA,14
+sore,14
+severe,14
+started,13
+took,12
 did,12
-binary__OTHER_MEDS_MISSING,12
-fever,12
-site,12
-day,12
-rash,12
-second,12
-headache,11
-started,11
-fatigue,11
-chills,11
+num__MAX_DOSE,12
+cat__YEAR_2021,12
+left,11
+developed,11
+medical,11
+throat,11
+paxlovid,11
+better,11
+cat__STATE_UNKNOWN,11
 heart,11
-symptoms,10
-dose,10
-num__MAX_DOSE,10
-chest,10
-medical,10
-doctor,10
-just,9
-positive covid,9
-weeks,9
-red,9
+aches,10
+cat__SEX_F,10
+fatigue,10
+concomitant,10
+injection site,10
+non,10
+right,10
+pt,10
+information,10
+having,10
+taken,10
+normal,10
+test,10
+swollen,9
+lasted,9
+female,9
+adverse,9
+receiving,9
+date,9
+binary__DOSE_COUNT,9
+tested,9
+itchy,9
+following,9
+reaction,9
+resolved,9
+like,9
+felt,9
+home,9
+cat__MONTH_1,9
+minutes,9
+feeling,8
+red,8
 patient received,8
-blood,8
-th,8
-shot,8
-body,8
-vaccination,8
-received,8
-consumer,8
-binary__ALLERGIES_MISSING,8
-moderna,7
-date,7
-booster,7
-better,7
-throat,7
-tested,7
+cat__MONTH_8,8
+weeks,8
+binary__UNKNOWN_DOSE,8
+administered,8
+positive covid,8
+pfizer,8
+received dose,8
+number,8
+cat__YEAR_2022,8
+shingles,8
+period,8
+mild,8
+itching,8
+feel,8
+cat__SEX_M,8
+included,8
+moderna,8
+nausea,8
+got,8
+swelling,8
+second,7
+body,7
+cat__MONTH_4,7
+lymph,7
+shot,7
+binary__MANU__PFIZER_BIONTECH,7
+evaluated,7
+refused,7
+prednisone,7
+week,7
+binary__HISTORY__cardiovascular,7
+patient experienced,7
 events,7
-evaluation,7
-severe,7
-left,7
-adverse,7
-binary__HISTORY_MISSING,7
-binary__LAB_DATA__other,7
-itching,7
-cat__YEAR_2021,6
-year-old,6
-route,6
-event,6
-normal,6
-sore,6
+today,7
+covid vaccination,7
+route,7
+didn,7
+diagnosed,7
+prescribed,7
+year-old,7
+cough,7
+binary__MULTI_DOSE,7
+breathing,7
+stated,6
+recovered,6
 temperature,6
-tested positive,6
-medications,6
 binary__PRIOR_VAX_MISSING,6
-test,6
-breath,6
-cat__SEX_M,6
-aches,6
-like,6
-work,5
-binary__HISTORY__cardiovascular,5
-binary__UNKNOWN_DOSE,5
-injection site,5
-concomitant,5
-got,5
-felt,5
-cat__MONTH_8,5
-hours,5
-cat__YEAR_2022,5
-saw,5
-muscle,5
-mrna,5
-cat__STATE_UNKNOWN,5
-home,5
-office,5
-lot,5
-non,5
-taken,5
-minutes,5
-nose,5
-cough,5
-returned,5
+later,6
+caused,6
+congestion,6
+cold,6
+nasal,6
+primary care,6
+vaccinated,6
+chills,6
+cat__MONTH_3,6
+iv,6
+states,6
+tested positive,6
+tinnitus,6
+consumer,6
+did result,6
+starting,6
+evaluation,6
+relationship,6
+history,6
+left arm,6
+covid vaccine,6
+condition,6
+cat__MONTH_9,6
+joint,6
+given,6
+lot,6
+ultrasound,6
+experienced,6
+second dose,6
+cause,5
+mrna moderna,5
+consumer subsequently,5
+morning,5
+binary__ALLERGIES__drug_allergy,5
+binary__LAB_DATA_MISSING,5
 acute,5
-period,5
-binary__MANU__PFIZER_BIONTECH,5
-allergy,5
-time,5
-administered,4
-head,4
-history,4
-contact,4
-itchy,4
-congestion,4
-covid positive,4
-binary__LAB_DATA_MISSING,4
-sent,4
-cat__MONTH_10,4
-told,4
-loss,4
-able,4
-binary__CUR_ILL_MISSING,4
-prior,4
-binary__OTHER_MEDS__other,4
-refused,4
+breath,5
+cat__MONTH_6,5
+worse,5
+tightness,5
+cat__MONTH_11,5
+binary__HISTORY__other,5
+continued,5
+binary__HISTORY__metabolic,5
+booster,5
+medical history,5
+binary__OTHER_MEDS__other,5
+binary__CUR_ILL_MISSING,5
+physician,5
+moderna covid,5
+tylenol,5
+just,5
+went care,5
+prior,5
+stroke,5
+began,5
+area,5
+use,5
+told,5
+epinephrine,5
+neck,5
+seek,5
+feeling better,5
+pcp,5
+occurrence,5
+water,5
+cat__MONTH_10,5
+binary__HISTORY__respiratory,5
+cream,5
+loss,5
+issues,5
+inflammation,5
+cat__MONTH_7,5
+patient went,5
+went away,5
+concomitant medications,5
+binary__HISTORY__neurologic,5
+nose,5
+comments,5
+cat__STATE_MA,5
+bnt,5
+arrived,5
+contact,5
+female patient,5
+binary__LAB_DATA__vitals_procedures,5
+april,4
+benadryl,4
+tired,4
+trouble,4
+declined,4
 pressure,4
-reaction,4
-eye,4
-treated,4
-didn,4
-fine,4
-information,4
-breathing,4
-patient stated,4
-patient experienced,4
-bnt,4
+stored,4
+away,4
+cat__STATE_MI,4
+follow-up attempts,4
+night,4
+treatment,4
+required,4
+procedures available,4
+cat__STATE_CA,4
+sob,4
+cat__MONTH_12,4
+changed dosage,4
+binary__PRIOR_VAX__prior_covid_vax,4
+product,4
+binary__OTHER_MEDS__statin,4
+burning,4
+breast,4
+vaccination patient,4
 cat__MONTH_2,4
-ibuprofen,4
-vaccine covid,4
-age,4
-left arm,4
-slight,4
-experiencing,4
-called,4
-stroke,4
-relationship,4
-pt,4
+felt better,4
+tachycardia,4
+bleeding,4
+went doctor,4
+sleep,4
+oral,4
+hives,4
+scheduled,4
+muscle,4
+sent,4
+requested,4
+binary__HISTORY_MISSING,4
+numbness,4
 single,4
-iv,4
-available,4
-chest pain,4
-years,4
-vitals,4
-past,3
-began,3
-resolved,3
-noticed,3
-drug,3
-arrived,3
-taste,3
-binary__ALLERGIES__other,3
-tired,3
-second dose,3
-pcr,3
-binary__HISTORY__respiratory,3
-primary care,3
-times,3
-diarrhea,3
-having,3
-painful,3
-lymph,3
-following,3
-related,3
-starting,3
-binary__LAB_DATA__vitals_procedures,3
-arm left,3
-pfizer,3
-infection,3
-completely,3
-inflammation,3
-events did,3
-vaccinated,3
-face,3
-based,3
-away,3
-mar,3
-paxlovid,3
-immunisation patient,3
-treatment,3
-reporter,3
-effects,3
-shingles,3
-date single,3
-binary__HISTORY__mental_health,3
-developed,3
-cat__MONTH_1,3
-binary__OTHER_MEDS__statin,3
-cat__MONTH_4,3
-cat__MONTH_7,3
-cat__MONTH_3,3
-physician,3
-additional,3
-cat__MONTH_6,3
-contracted,3
-breakthrough covid,3
-unspecified date,3
+medications,4
+sweating,4
+date unspecified,4
+sinus,4
+appointment,4
+result,4
+disease,4
+hot,4
+related,4
+administration,4
+attempts,4
+dose vaccine,4
+palpitations,4
+presented,4
+past,4
+batch,4
+breakthrough covid,4
+medication,4
+reports,3
+nerve,3
 jan,3
-ear,3
-stated,3
-binary__DOSE_COUNT,3
-batch lot,3
-feeling better,3
-female,3
-medical history,3
-nurse,3
-months,3
-primary,3
-recovered,3
-right,3
-nausea,3
-took,3
-lower,3
-area,3
-swelling,3
-dizzy,3
-clinic,3
-high,3
-mrna moderna,3
-use,3
+prior vaccination,3
+myalgia,3
+results,3
+allergy,3
+known,3
+consumer patient,3
+care professional,3
+patient tested,3
+binary__CUR_ILL__other,3
+assessed,3
+came,3
+patient concomitant,3
 blood pressure,3
-binary__MANU__MODERNA,3
-previously,3
-comments,2
-conditions,2
-cat__STATE_PA,2
-relevant,2
-included covid,2
-forearm,2
-ice,2
-hard,2
-felt better,2
-receiving vaccine,2
-results,2
-included bnt,2
-subsequently,2
-cat__MONTH_9,2
-help,2
-normal ranges,2
-start date,2
-consumer describes,2
-number el,2
-batch number,2
-cleared,2
-company,2
-covid pcr,2
-low grade,2
-breakthrough,2
-did result,2
-coughing,2
-attempts possible,2
-clinical,2
-fully vaccinated,2
-fully,2
-cat__STATE_MN,2
-notes,2
-response,2
-shortness,2
-stated felt,2
-monitored,2
-today,2
-lift,2
-numbness,2
-binary__HISTORY__cancer_immunocompromised,2
-cat__STATE_MI,2
-went care,2
-single covid,2
-health care,2
-antibiotic,2
-little,2
-raised,2
-vaccines,2
-right arm,2
-benadryl,2
-mrna vaccine,2
-continued,2
-included,2
-occurred,2
-obtained,2
-followed,2
-cat__STATE_NJ,2
-error,2
-approximately,2
-nd,2
-ordered,2
-evaluated,2
-required,2
-oxygen,2
-near,2
-booster shot,2
-deep,2
-body aches,2
-respiratory,2
-administration administered,2
-pneumonia,2
-requested,2
-binary__ALLERGIES__drug_allergy,2
-therapy,2
-negative,2
-vomiting,2
-date patient,2
-ran,2
-saturday,2
-year old,2
-binary__HISTORY__other,2
-dose covid,2
-measures taken,2
-follow-up,2
-showed,2
-provided time,2
-mild,2
-male patient,2
-skin,2
-drug ineffective,2
-shots,2
-investigation,2
-needed information,2
-formulation solution,2
-instructed,2
-received vaccination,2
-declined,2
-family,2
-body ache,2
-covid vaccine,2
-heavy,2
-repeat,2
-later,2
-states,2
-hand,2
-binary__MULTI_DOSE,2
-administered arm,2
-type,2
-worsening,2
-facility,2
-condition,2
-diphenhydramine,2
-came,2
-ok,2
-previous,2
-know,2
-protocol,2
-referred,2
-duration,2
-binary__OTHER_MEDS__thyroid_meds,2
-feeling,2
-eyes,2
-received dose,2
-nos,2
-improved,2
-receiving,2
-mg,2
-binary__HISTORY__neurologic,2
-systemic fainting,2
-expired,2
-caused,2
-systemic,2
-moderna covid,2
-shoulder,2
-sender comments,2
-occurrence,2
+contactable,3
+pains,3
+difficulty,3
+route dosage,3
+need,3
+age,3
+vitals,3
+stop,3
+called,3
+bp hr,3
+work,3
+primary,3
+store,3
+concerns,3
+bp,3
+extremely,3
+nd,3
+pm,3
+binary__HISTORY__musculoskeletal,3
+feels,3
+event,3
+shortness breath,3
+cat__STATE_MD,3
+steroids,3
+sure,3
+right arm,3
+test positive,3
+month,3
+notes,3
+provided,3
+released,3
+leg,3
+dose pfizer,3
+dose bnt,3
+cat__STATE_KY,3
+symptomatic,3
+single dose,3
+single covid,3
+shoulder,3
+year-old female,3
+cat__STATE_FL,3
+paramedics,3
+received mrna,3
+medications patient,3
+binary__LAB_DATA__other,3
+contactable consumer,3
+antigen test,3
+solution,3
+unspecified,3
+elevated,3
+fine,3
+head,3
+vaccines,3
+negative,3
+history included,3
+upper,3
+binary__PRIOR_VAX__other,3
+going,3
+bed,3
+patient vaccinated,3
+binary__ALLERGIES__other,3
+dosage form,3
+patient medical,3
+seen,3
+ekg,3
+lasted days,3
+cat__MONTH_5,3
+admission,3
+cat__STATE_MN,3
+copd,3
+chest pains,3
+shortness,3
+patient given,3
+tests,3
+cat__STATE_NY,3
+covid positive,3
+heavy,3
+included unspecified,3
+allergic,3
+fainting,3
+medication included,3
+little,3
+consumer describes,3
+months,3
+approximately,3
+started days,3
+issue,3
+heart attack,3
+want,3
+eye,3
+action,3
+noticed,3
+weakness,3
+hr,3
+oxygen,3
+chair,3
+immunisation medical,3
+subsided,3
+mrna,3
+steroid,3
+half,3
+clinic,3
+dose covid,3
+systemic,3
+pulmonary,3
+chest pain,3
+binary__CUR_ILL__chronic_cardiovascular,3
+st,3
+helped,3
+follow-up,3
+vaccination site,3
+face,3
+pretty,3
+think,2
 chest tightness,2
-night,2
-measures,2
-seizure,2
-feels like,2
-getting,2
-extreme,2
-pain left,2
-number obtained,2
-ekg,2
-noted,2
-swollen,2
-cat__STATE_WI,2
-bit,2
-indication,2
-asked,2
-said,2
-ongoing,2
-experienced,2
-elevated,2
-cat__YEAR_2024,2
-joint,2
-sensation,2
-provider,2
-cat__STATE_KY,2
-en,2
-cold,2
-dosage form,2
-worse,2
-provided,2
-cat__STATE_WA,2
-palpitations,2
-evening,2
-gone,2
-submitted,2
-resolve,2
-appointment,2
-paramedics,2
-increased,2
-epinephrine,2
-pt stated,2
-called doctor,2
-covid vaccination,2
-bad,2
-especially,2
-adult,2
-bleeding,2
-female patient,2
-requested sender,2
-cat__STATE_OK,2
-allergic,2
-foot,2
-given,2
-prednisone,2
-feel,2
-jul patient,2
-ago,2
+low,2
+episode,2
+date patient,2
+binary__MANU__JANSSEN,2
+temporal,2
+provide,2
+reporter,2
+make,2
+cycle,2
+lot number,2
+fully vaccinated,2
+bumps,2
+gave,2
+products,2
+date provided,2
+ice,2
+vaccine given,2
+doing,2
+stay,2
+cellulitis,2
+recommended,2
+past medical,2
+pfizer-biontech covid,2
+attack,2
 manufacturer,2
-cat__MONTH_5,2
-received second,2
-ended,2
+illness,2
+drug,2
+cat,2
+dose mrna,2
+infusion,2
+notified,2
+cat__STATE_PA,2
+professional,2
+binary__HISTORY__endocrine_thyroid,2
+includes,2
+okay,2
+lasted weeks,2
+batch lot,2
+clinical,2
+wasn,2
+limited information,2
+appetite,2
+vaccine formulation,2
+contrast,2
+subcutaneous,2
+long,2
+determined,2
+cat__STATE_WA,2
+twice,2
+sars-cov test,2
+events recovered,2
+binary__OTHER_MEDS__anticoagulant,2
+covid patient,2
+shellfish,2
+ibuprofen,2
+cat__STATE_TN,2
+exercise,2
+moderna vaccine,2
 cat__YEAR_2023,2
-reports,2
-pm,2
-age received,2
-walking,2
-weeks receiving,2
-hives,2
-dizziness,2
-describes,2
-week,2
+patient age,2
+hypertension,2
+referred,2
+action taken,2
+increased,2
+patient called,2
+local,2
+immediate,2
+looks,2
+diarrhea,2
+epi,2
+care clinical,2
+cat__STATE_MO,2
+sat,2
+feet,2
+heart rate,2
+patient took,2
+december,2
+non onset,2
+bad,2
+looked,2
 received covid,2
-currently,2
-prescription,2
-company comment,2
-incident,2
-year-old female,2
-april,2
-issues,2
-flu,2
-diagnosed,1
-cat__STATE_OH,1
-article,1
-sunday,1
-palsy,1
-identified,1
-eye pain,1
-stool,1
-trouble,1
-march th,1
-cat__STATE_MS,1
-hrs,1
-unwell,1
-caller,1
-hypoaesthesia,1
-local,1
-debilitating,1
-symptomatic,1
-headache body,1
-constant,1
-getting shot,1
-problems,1
-administered products,1
-cat__STATE_IL,1
-family member,1
-md,1
-thinks,1
-minute,1
-st,1
-cat__STATE_UT,1
-use provided,1
-questions,1
-vaccine symptoms,1
-stomach,1
-effect,1
-im,1
-rehab,1
-uncontrollable,1
-sent home,1
-patient denied,1
-responded,1
-lay,1
-doses,1
-breakfast,1
-testing,1
-slightly,1
-notified,1
-wife,1
-pharmacy,1
-fell,1
-couple,1
-doctor office,1
-packs,1
-vaccine patient,1
-follow,1
-burning sensation,1
-oral,1
-minutes patient,1
-end,1
-need,1
-pcp,1
-lips,1
-numb,1
-pain injection,1
-migraine,1
-steady,1
-started taking,1
-food,1
-uncomfortable,1
-rapid,1
-stress,1
-repeated,1
-cardiologist,1
-thought,1
-intermittent,1
-unbearable,1
-site days,1
-causality event,1
-cat__MONTH_11,1
-wanted,1
-delivery,1
-moderna booster,1
-packaging,1
-cat__STATE_AZ,1
-table,1
-checked,1
-released,1
-fainting,1
-did want,1
-taken mrna,1
-jul,1
-feb,1
-patient asked,1
-patient called,1
-parents,1
-vaccination medical,1
-okay,1
-vaccination patient,1
-make sure,1
-min,1
-color,1
-suggested,1
-sep,1
-osteoarthritis,1
-dose jan,1
-calcium,1
-weeks ago,1
-asymptomatic,1
-patient vaccinated,1
-cat__MONTH_12,1
-batch,1
-decreased,1
-oropharyngeal,1
-pulse,1
-went doctor,1
-different,1
-age time,1
-september,1
-intramuscular administered,1
-clear,1
-coming,1
-does,1
-causing,1
-aching,1
-concerned,1
-measurement,1
-requested follow,1
-included patient,1
-professional describes,1
-cat__STATE_ID,1
-dose patient,1
-detailed concurrent,1
-grade fever,1
-sense,1
-vaccinations,1
-difficult,1
-additionally,1
-year-old non-pregnant,1
-wrist,1
-temp,1
-slight fever,1
-necessary,1
-registered,1
-covid symptoms,1
-runny,1
-adverse reaction,1
-like symptoms,1
-rosuvastatin,1
-dosage changed,1
-detailed,1
-ml,1
-revealed,1
-doses mrna,1
-onset,1
-embolism,1
-product use,1
-half,1
-covid pneumonia,1
-unspecified,1
-received patient,1
-parenthesis,1
-stated patient,1
-vaccination concomitant,1
-provided parenthesis,1
-form apr,1
-medications provided,1
-occurrence covid,1
-blood clot,1
-july,1
-contactable reporter,1
-fourth dose,1
-changed dosage,1
-ethnicity,1
-arm feb,1
-temporal,1
-recent,1
-covid unspecified,1
-arm jan,1
-immunisation medical,1
-doctors,1
-started getting,1
-product,1
-vaccine administration,1
-following information,1
-dec,1
-taking tylenol,1
-pruritus itching,1
-hearing loss,1
-information expected,1
-stated feeling,1
-vaccination history,1
-bnt lot,1
-medications vaccination,1
-apr,1
-bnt dose,1
-metal,1
-covid onset,1
-moderna dose,1
-expiry dose,1
-shaking,1
-dose mrna,1
-vaccine batch,1
-event did,1
-date unspecified,1
-route administration,1
-products,1
-number dose,1
-encouraged,1
-grade,1
-date lot,1
-soreness,1
-patient developed,1
-pretty,1
-center,1
-clinic patient,1
-tinnitus,1
-swollen lymph,1
-ranges provided,1
-twitching,1
-relevant concomitant,1
-vaccine trial,1
-aspirin,1
-label,1
-receiving covid,1
-section,1
-artery,1
-cat__SEX_F,1
-late,1
-nd dose,1
-tiredness,1
-right lower,1
-progressively,1
-changed,1
-nauseavomiting,1
-dose frequency,1
-binary__MULTI_MANUFACTURER,1
-patient tested,1
-right hand,1
-tried,1
-arm dose,1
-everyday,1
-remain,1
-zyrtec,1
-determined,1
-binary__HISTORY__metabolic,1
-recovered follow-up,1
-feet,1
-cat__STATE_AK,1
-shoulders,1
-bilateral,1
-leg pain,1
-extreme fatigue,1
-vaccine given,1
-cat__STATE_MO,1
-friday,1
-incorrect,1
-double,1
-october,1
-shot patient,1
-fluticasone,1
-following vaccination,1
-lump,1
-information provided,1
-knees,1
-myalgia,1
-affecting,1
-smell,1
-poor,1
-unable sleep,1
-cat__STATE_CA,1
-severe pain,1
-started feeling,1
-number intramuscularly,1
-water,1
-august,1
-pills,1
-delayed,1
-presents,1
-binary__HISTORY__kidney,1
-known,1
-symptom,1
-forehead,1
-sore throat,1
-positive test,1
-diabetes,1
-daughter,1
-dose date,1
-injection left,1
-indication feb,1
-tests,1
-left deltoid,1
-sharp pain,1
-dose left,1
-elbow,1
-joint pain,1
-went away,1
-swelled,1
-post vaccination,1
-compared,1
-signs,1
-site pain,1
-clinic care,1
-cramping,1
-time covid,1
-redness,1
-erythema,1
-appears,1
-site redness,1
-hives body,1
-really,1
-fever body,1
-father,1
-symptoms patient,1
-miscarriage,1
-years-old,1
-continuing,1
-headache patient,1
-care doctor,1
-read,1
-long,1
-taking,1
-passed,1
-extremity,1
-feb patient,1
-medicine,1
-broke hives,1
-taste mouth,1
-test positive,1
-cheeks,1
-frequency,1
-covid time,1
-bp,1
-attempts,1
-patient seen,1
-days later,1
-placed,1
-started day,1
-observation period,1
-leg,1
-lie,1
-days vaccine,1
-consent,1
-fever degrees,1
-ring,1
-alert,1
-nausea fever,1
-jaw,1
-pyrexia,1
-pain received,1
-illness,1
-binary__PRIOR_VAX__prior_covid_vax,1
-lower extremities,1
-initiated,1
-receive second,1
-number unspecified,1
-wants,1
-white,1
-unexpected non,1
-family medical,1
-sought,1
-redness injection,1
-oct,1
-patient given,1
-eat,1
-patient recovering,1
-old female,1
-reporter linked,1
-tablets,1
-medications included,1
-experienced nausea,1
-vaccine solution,1
-event drug,1
-unexpected,1
-low,1
-june,1
-efficacy,1
-concern,1
-unable,1
-chest discomfort,1
-intramuscular,1
-physician office,1
-listed,1
-vaccine prior,1
-talk,1
-vitamin,1
-form,1
-concerned patient,1
-years dose,1
-really bad,1
-abuse,1
-fever pain,1
-arm sore,1
-hcp,1
-like illness,1
-anxiety,1
-ache,1
-phone,1
-binary__ALLERGIES__latex_other_contact,1
-covid test,1
-history experienced,1
-second covid,1
-waiting,1
-arm swollen,1
-sweating,1
-arm hurt,1
-couldn,1
-events follow-up,1
-later day,1
-pack,1
-immunisation,1
-care provider,1
-including,1
-additional non,1
-cov suspension,1
-tremors,1
-limits,1
-information patient,1
-lung,1
-hot,1
-years-old single,1
-probably,1
-certain,1
-patient unspecified,1
-takes,1
-administered date,1
-using,1
-result event,1
-disorder,1
-administration,1
-arm felt,1
-running,1
-groin,1
-came negative,1
-possible contributory,1
-medication patient,1
-available appropriate,1
-binary__LAB_DATA__cardiac_markers,1
-ct,1
-ultrasound,1
-resp,1
-deltoid,1
-vital,1
-brain,1
-parenthesis available,1
-tests procedures,1
-left hand,1
-staff,1
-headed,1
-armpit,1
-breast,1
-bnt pfizer-biontech,1
-age years-old,1
-lymphadenopathy,1
-tumor,1
-profile,1
-transient,1
-cream,1
-red rash,1
-events occurred,1
-immunization,1
-cap,1
-linked,1
-finally,1
-patient did,1
-review appropriate,1
-chronic,1
-covid described,1
-bpm,1
-recovered described,1
-heart attack,1
-happening,1
-vaccine experienced,1
-concomitant medications,1
-stayed,1
-exhausted,1
-binary__OTHER_MEDS__anticoagulant,1
-cdc,1
-monday,1
-meds,1
-erythematous,1
-nights,1
-prescribed,1
-reflux,1
-day went,1
+seizure,2
+describes,2
+new,2
+covid immunization,2
+september,2
+cat__STATE_TX,2
+positive patient,2
+number ep,2
+association,2
+binary__MULTI_MANUFACTURER,2
+able,2
+extreme,2
+people,2
+bnt pfizer-biontech,2
+effects,2
+getting,2
+gender,2
+skin,2
+family,2
+slightly,2
+happened,2
+hands,2
+finger,2
+treatment information,2
+early,2
+cheek,2
+previously took,2
+rd,2
+pfizer vaccine,2
+feb,2
+ethics committees,2
+form,2
+causal relationship,2
+unresponsive,2
+bottle,2
+ineffective,2
+binary__OTHER_MEDS__diabetes_meds,2
+anxiety,2
+resolve,2
+intramuscular,2
+observation,2
+experienced fever,2
+solution injection,2
+dermatologist,2
+days later,2
+cardiac,2
+passed,2
+menstrual,2
+doses,2
+client,2
+similar,2
+batch number,2
+including,2
+numbers,2
+muscles,2
+milliliter,2
+cat__STATE_WI,2
+entire,2
+allergic reaction,2
+additional,2
+company,2
+range motion,2
+significant,2
+section,2
+rapid,2
+unable,2
+taste,2
+drainage,2
+times,2
+asked,2
+itch,2
+function,2
+knees,2
+ringing,2
+extremity,2
+difficulty breathing,2
+ears,2
+formulation,2
+armpit,2
+nasal congestion,2
+sore throat,2
+size,2
+binary__HISTORY__mental_health,2
+yellow,2
+unspecified age,2
+administered patient,2
+redness,2
+fever nausea,2
+describes occurrence,2
+like illness,2
+humira,2
+years,2
+headache day,2
+hours later,2
+relevant,2
+surgery,2
+assessment,2
+procedures,2
+patient wanted,2
+know,2
+painful,2
+body aches,2
+checked,2
+touch,2
+sleeping,2
+discomfort,2
+severe pain,2
+binary__OTHER_MEDS__thyroid_meds,2
+lump,2
+low grade,2
+deltoid,2
+hrs,2
+assessments treatment,2
+male,2
+nauseous,2
+muscle pain,2
+did feel,2
+onset,2
+saw,2
+history information,2
+age years-old,2
+mod,2
+intense,2
+upper arm,2
+food,2
+tender,2
+second shot,2
+pcr,2
+health care,2
+minor,2
+vaccine batch,2
+binary__NUMDAYS_MISSING,2
+leaving,2
+dr,2
+information factors,2
+receive vaccines,2
+dosage,2
+duration,2
+ct,2
+binary__LAB_DATA__cardiac_markers,2
+pain arm,2
+continues,2
+considered,2
+pain shortness,2
+breakthrough,2
+showed,2
+reflux,2
+evening,2
+nov,2
+help,2
+condition sender,2
+does,2
+fully,2
+additional information,2
+adverse event,2
+tell,2
+tight,2
+received second,2
+underwent following,2
+inside,2
+maybe,2
+binary__HISTORY__cancer_immunocompromised,2
+available,2
+tablet,2
+swollen lymph,2
+arm red,2
+occurred,2
+cat__STATE_OH,2
+medical care,2
+swelled,2
+taken mrna,2
+usually,1
+acid,1
+clots,1
 beginning,1
-recovering,1
-healthy,1
-intramuscular concomitant,1
-muscle aches,1
-binary__ONSET_INTERVAL_MISSING,1
-cat__STATE_VA,1
-following vaccine,1
-felt like,1
-range,1
-left face,1
-sleeping,1
-daily,1
-throwing,1
-headaches,1
-binary__CUR_ILL__metabolic_endocrine,1
-menstrual,1
-number,1
-lot batch,1
-products included,1
-upper,1
-bnt intramuscular,1
-indication apr,1
-seek,1
-self,1
-make,1
-present,1
-tested covid,1
-bump,1
-dose vaccine,1
-physical therapy,1
-spread,1
-immediately,1
-concerning,1
-torso,1
-tuesday,1
-giving,1
-dr,1
-cat__STATE_MA,1
-went home,1
-discomfort,1
-site reaction,1
-causal,1
-number provided,1
-available information,1
-benefit-risk,1
-thinner,1
-awoke,1
-unspecified ongoing,1
-study,1
-receiving st,1
-cat__YEAR_2025,1
-additional information,1
-patient medical,1
-patient relevant,1
-advised,1
-considered,1
-needed,1
-spo,1
-dose pfizer,1
-vision,1
-drinking,1
-specific,1
-dates,1
-extremities,1
-tightness,1
-received bnt,1
-sep dose,1
-binary__HISTORY__endocrine_thyroid,1
-binary__HISTORY__musculoskeletal,1
-pains,1
-funny,1
-worsened,1
-fluids,1
-given patient,1
-legs,1
-stop,1
-pharmacist,1
-vaccination date,1
-route unspecified,1
-agency,1
-rest,1
-occurred date,1
-allergies,1
-size,1
-suspect,1
-resolved concomitant,1
-breath chest,1
-light,1
-feels,1
-chest pains,1
-headache action,1
-thumb,1
-fluticasone propionate,1
-short breath,1
-day felt,1
-difficulty,1
-difficulty swallowing,1
-rapid heart,1
-care professional,1
-denies,1
-risk,1
-dose moderna,1
-january,1
-symptoms improved,1
-provided treatment,1
-indications,1
-injection lot,1
-asthma,1
-multiple times,1
-route admin,1
-medications unspecified,1
-assessments,1
-flare,1
-date dose,1
-sars-cov,1
-treatment given,1
-patient got,1
-does know,1
-visits,1
-lungs,1
-information batch,1
-second vaccination,1
-possible,1
-age years,1
-oil,1
-consumer patient,1
-abdominal pain,1
-possible information,1
-new,1
-described,1
-result,1
-non onset,1
-attempts completed,1
-patients,1
-covid recovered,1
-medications weeks,1
-patient taking,1
-history included,1
-rate,1
-fever days,1
-day patient,1
-dates unspecified,1
-included body,1
-cat__STATE_FL,1
-contactable consumer,1
-causal relationship,1
-potentially,1
-feelings,1
-binary__CUR_ILL__other,1
-reaction vaccine,1
-facial,1
-plus,1
-consumer concerning,1
-slept day,1
-info,1
+weeks vaccination,1
+cat__STATE_ID,1
+cramps,1
+extremely painful,1
+beat,1
+got covid,1
+fast,1
+vaccination failure,1
+investigation,1
+scratchy,1
+events applicable,1
+walked,1
+major,1
+receiving dose,1
+eating,1
+quickly,1
+arms legs,1
+magnesium,1
+disorder,1
+lots,1
+pink,1
+onset mar,1
+needle,1
+covid test,1
 completed information,1
-pfizer sponsored,1
-headache fever,1
-decided,1
-tongue,1
-arthritis,1
-diagnosed covid,1
-mar patient,1
+hard,1
+yes,1
+follow received,1
+prior onset,1
+unexpected,1
+decreased,1
+friend,1
+received fourth,1
+random,1
+resolved concomitant,1
+ointment,1
+concurrent medical,1
+miscarriage,1
+cov,1
+records,1
+right shoulder,1
+infection,1
+booster dose,1
+biontech covid,1
+lips,1
+did require,1
+binary__OTHER_MEDS__immunosuppressant,1
+nd shot,1
+information lot,1
+number dose,1
+scratchy throat,1
+effect,1
+suspect product,1
+occasionally,1
+chills chills,1
+considered adverse,1
+year,1
+np,1
+incorporated,1
+vaccine pt,1
+state,1
+recent,1
+laboratory data,1
+leave,1
+advised,1
+clear,1
+include,1
+closed,1
+document,1
+feeling fine,1
+family member,1
+hot cold,1
+second vaccination,1
+throat tightness,1
+responded,1
+parent,1
+diaphoretic,1
+treatment details,1
+mask,1
+doctors,1
+stating,1
+vaccine mrna,1
+error,1
+instead,1
+mg,1
+started feeling,1
+holding,1
+monitored,1
+minute,1
+vaccination co-suspect,1
+additional non,1
+ha,1
+right deltoid,1
+alert,1
+hcp,1
+dizzy,1
+receiving booster,1
+pain felt,1
+receiving second,1
+hot touch,1
+information provided,1
+abnormal,1
+discovered,1
+appt,1
+dose frequency,1
+pt given,1
+brought,1
+mg benadryl,1
+ice pack,1
+ranges provided,1
+additional details,1
+pcr test,1
+faint,1
+recovered follow-up,1
+list,1
+instructions,1
+section additional,1
+immediately,1
+assistance,1
+mins,1
+different,1
+feeling good,1
+headed,1
+received vaccine,1
+clinic patient,1
+wondering,1
+vaccine trial,1
+right administration,1
+clammy,1
+nurse,1
+good,1
 lip,1
-prophylaxis patient,1
-includes,1
-requested follow-up,1
-action taken,1
-events provided,1
-subsequently medically,1
-year-old male,1
-arms,1
-unexpected event,1
-detailed patient,1
-form feb,1
-aesi,1
-medication provided,1
-cat__STATE_IN,1
-days second,1
-mod linked,1
-experienced fever,1
-number bnt,1
-codeine,1
-attack,1
-assessed,1
-reporter comments,1
-covid immunization,1
-cause,1
-epi,1
-suspension,1
-flushed,1
-medication,1
-minutes receiving,1
-cat__STATE_NV,1
-conditions included,1
-applicable patient,1
+needs,1
+intramuscularly prophylaxis,1
+company comment,1
+vaccine bivalent,1
+vomiting,1
+received non-contactable,1
+reporter consumer,1
+underneath,1
+lot en,1
+number ew,1
+visits,1
+anaphylaxis,1
+secondary,1
+cell,1
+fluid,1
+steady,1
+drive,1
+couldn,1
+pulse,1
+ew,1
+viral,1
+en,1
+confirmed,1
+doctor prescribed,1
+walking,1
+headaches,1
+sunday,1
+hold,1
+rapid test,1
+detailed,1
+experienced myalgia,1
+started getting,1
+ordered,1
+cat__STATE_CT,1
+cat__STATE_NC,1
+binary__HISTORY__clotting,1
+lymph nodes,1
 completed,1
-left upper,1
+min,1
+mod mod,1
+cat__STATE_RI,1
+binary__OTHER_MEDS__psych_meds,1
+shoulder pain,1
+site rash,1
+adverse effect,1
+date received,1
+shots,1
+pain extremity,1
+cat__STATE_HI,1
+stress,1
+achy,1
+woke,1
+binary__PRIOR_VAX__prior_flu_vax,1
+congested,1
+july,1
+menstrual bleeding,1
+right breast,1
+heavier,1
+pregnant received,1
+antibiotics,1
+depression,1
+weeks later,1
+possibility,1
+diabetic,1
+elevated blood,1
+started having,1
+testing positive,1
+rheumatologist,1
+vaccine booster,1
+venous,1
+cat__STATE_OR,1
+parenthesis,1
+menopause,1
+immune,1
+cat__STATE_IN,1
+initial,1
+fever cough,1
+hypoxic respiratory,1
+estimated,1
+findings,1
+cat__STATE_NV,1
+outpatient,1
+fevers,1
+smell,1
+tylenol ibuprofen,1
+loss taste,1
+accompanied,1
+abdominal,1
+exposure,1
+sep,1
+link,1
+herpes,1
+th,1
+occurred days,1
+indicated,1
+respiratory,1
+testing,1
+adverse events,1
+complaint,1
+contracted covid,1
+site-mild,1
+arrhythmia,1
+asymptomatic,1
+prednisone mg,1
+present,1
+day course,1
+dry cough,1
+taste smell,1
+lump injection,1
+symptoms lasted,1
+runny nose,1
+red itchy,1
+actually,1
+contracted,1
+positive positive,1
+antigen,1
+covid pcr,1
+vial moved,1
+binary__CUR_ILL__autoimmune_inflammatory,1
+motrin,1
+nos,1
+problem,1
+binary__MANU__NOVAVAX,1
+aspirin,1
+feeling cold,1
+blood clots,1
+experiencing,1
+august,1
+loss smell,1
+intramuscularly left,1
+immunization following,1
+used,1
+clot,1
+talked,1
+vaccine unspecified,1
+obtained information,1
+rash itching,1
+date event,1
+post vaccination,1
+itching rash,1
+ischemic,1
+typical,1
+indication feb,1
+history patient,1
+events causal,1
+risk,1
+gone,1
+asthenia weak,1
+autoimmune,1
+nd dose,1
+adverse reaction,1
+palsy,1
+onset recovered,1
+sensations,1
+sign,1
+june,1
+planned,1
+pfizer shot,1
+indication,1
+received contactable,1
+spots,1
+office patient,1
+hydroxyzine,1
+persisted,1
+bone,1
+feeling like,1
+receiving nd,1
+pneumonia,1
+double vision,1
+antibody,1
+day day,1
+patients,1
+check,1
+administration right,1
+pharmacy,1
+car,1
+conditions patient,1
+lab tests,1
+areas,1
+wound,1
+levothyroxine,1
+zinc,1
+receiving covid,1
+laboratory,1
+procedure,1
+temporal association,1
+damage,1
+covid onset,1
+caught,1
+abdominal pain,1
+binary__ALLERGIES__latex_other_contact,1
+infectious,1
+profile pfizer,1
+say,1
+edema,1
+office,1
+current,1
+minutes vaccine,1
+received nd,1
+days receiving,1
+bud,1
+plausibility factors,1
+events included,1
+returned,1
+sender comments,1
+healthcare,1
+unexpected non,1
+diabetes,1
+laboratory tests,1
+nos covid,1
+information available,1
+sickness,1
+shoulder blade,1
+residual,1
+binary__HISTORY__gastrointestinal,1
+information temporal,1
+dec,1
+cat__STATE_LA,1
+type,1
+receive,1
+years old,1
+cov applicable,1
+hour half,1
+site erythema,1
+pain non,1
+arm sore,1
+fever chills,1
+left chest,1
+slept,1
+arm got,1
+shower,1
+vaccine patient,1
+called patient,1
+recommendation,1
+quarter,1
+way,1
+improved,1
+injection arm,1
+gi,1
+suspension injection,1
+left body,1
+normally,1
+vomit,1
+sensation,1
+started day,1
+begin,1
+hand,1
+unspecified date,1
+joint pain,1
+start date,1
+nasopharyngitis,1
+monoclonal,1
+patient developed,1
+near injection,1
+arms,1
+free,1
+chills fever,1
+number ff,1
+forwarded moderna,1
+afternoon,1
+redness swelling,1
+dose single,1
+treated,1
+following laboratory,1
+trouble breathing,1
+debilitating,1
+meds,1
+slight,1
+right hand,1
+getting better,1
+cat__STATE_DC,1
+binary__CUR_ILL__neurologic,1
+increasing,1
+arm injection,1
+worsened,1
+non hcp,1
+required physician,1
+hours post,1
+legs feet,1
+vaccine weeks,1
+sulfa,1
+events patient,1
+balance,1
+drug store,1
+administration arm,1
+unsure,1
+rate increased,1
+post,1
+interchange,1
+medications unspecified,1
+really,1
+administration administered,1
+plausibility information,1
+patient got,1
+throwing,1
+health,1
+procedures included,1
+mrna vaccine,1
+underwent lab,1
+vaccine lot,1
+covid tested,1
+therapeutic,1
+date feb,1
+information expected,1
+prior administration,1
+experienced covid,1
+alopecia,1
+eyes,1
+mar age,1
+patient recovering,1
+headache patient,1
+male patient,1
+swelling throat,1
+medications apr,1
+heart palpitations,1
+limited,1
+based information,1
+conditions,1
+try,1
+included patient,1
+blood cholesterol,1
+year old,1
+scan,1
+unspecified included,1
+administration unspecified,1
+day shot,1
+clinical event,1
+like symptoms,1
+start therapy,1
+series,1
+healthcare professional,1
+arm jan,1
+causal,1
+patient covid,1
+site pain,1
+nervous,1
+tests procedures,1
+vaccine administered,1
+count,1
+center,1
+review,1
+covid described,1
+arm feb,1
+wanted know,1
+number unspecified,1
+strength,1
+apr patient,1
+penicillin,1
+subject,1
+elbow,1
+reporter comments,1
+years-old female,1
+days shot,1
+node,1
+nodes left,1
+tuesday,1
+pain injection,1
+binary__HISTORY__kidney,1
+twitching,1
+non recovered,1
+brain fog,1
+kind,1
+sequelae,1
+consumer year-old,1
+described,1
+ad cov,1
+tingling,1
+vital,1
+spotting,1
+eua,1
+distress,1
+husband,1
+began feeling,1
+ankles,1
+sodium synthroid,1
+left armpit,1
+tightness chest,1
+wheelchair,1
+light headed,1
+mid,1
+fingers,1
+binary__LAB_DATA__inflammation,1
+legs,1
+calves,1
+lift arm,1
+arm swelling,1
+blood work,1
+binary__LAB_DATA__cbc,1
+excessive,1
+bnt bnt,1
+generalized,1
+trying,1
+number age,1
+article,1
+days post,1
+loss appetite,1
+chills nausea,1
+weeks prior,1
+recovering,1
+deep,1
+looked like,1
+strong,1
+runny,1
+following vaccine,1
+heaviness,1
+diagnostic results,1
+hours vaccine,1
+grade,1
+tiredness,1
+nausea dizziness,1
+vitamin,1
+provider,1
+frequency,1
+experienced sore,1
+probably,1
+understanding,1
+unusual,1
+consulted,1
+base,1
+onset jan,1
+fog,1
+recurrent,1
+flu,1
+hurts,1
+foot,1
+contains,1
+tenderness,1
+cardiologist,1
+pulmonary embolism,1
+magnetic,1
+little bit,1
+added,1
+inhaler,1
+appropriate section,1
+vaccine series,1
+monitor,1
+lasting,1
+binary__MANU__UNKNOWN_MANUFACTURER,1
+purple,1
+difficult,1
+syndrome,1
+hour,1
+pick,1
+completely,1
+using,1
+properly,1
+comes,1
+scientific,1
+follow,1
+verbalized,1
+recorded,1
+patient complained,1
+upper chest,1
+loratadine,1
+sunburn,1
+stiffness,1
+provided reporter,1
+chest pressure,1
+days second,1
+difficulty swallowing,1
+systemic allergic,1
+swelling face,1
+arm pain,1
+cat__STATE_WV,1
+unspecified indication,1
+el unspecified,1
+weeks vaccine,1
+professional patient,1
+remained,1
+palms,1
+tingly,1
+mentioned,1
+number provided,1
+patient patient,1
+vision,1
+energy,1
+start,1
+especially,1
+incorporated includes,1
 speech,1
-employee,1
+decrease,1
+develop,1
+floor,1
+minimal,1
+joint aches,1
+care doctor,1
+care provider,1
+cat__STATE_IL,1
+cat__STATE_UT,1
+like going,1
+relief,1
+dose dosage,1
+followed,1
+lightheaded,1
+changed,1
+short breath,1
+dizziness,1
+high blood,1
+cat__STATE_AK,1
+pepcid,1
+facial,1
+necessary,1
+light,1
+sore left,1
+nausea fatigue,1
+radiating,1
+linked,1
+received moderna,1
+product bnt,1
+doesn,1
+left eye,1
+facility,1
+inner,1
+monitoring,1
 expiry,1
-chf,1
-dementia,1
-vial,1
-vaccine resolved,1
+receipt,1
+immunisation patient,1
+resp,1
+injection patient,1
+head ache,1
+regulatory,1
+bnt excluded,1
+needed,1
+bivalent,1
+medical conditions,1
+route administration,1
+manufacture,1
+following vaccination,1
+products included,1
+events did,1
+hypersensitivity,1
+agent,1
+look,1
+bnt dose,1
+event included,1
+aug recovered,1
+nurse describes,1
+receive vaccine,1
+cat__YEAR_2020,1
+immunisation,1
+pericarditis,1
+second moderna,1
+pain headache,1
+vaccine eua,1
+attention,1
+felt like,1
+oct,1
+myocarditis,1
+stop date,1
+paralysis,1
+lower,1
+recovered described,1
+remains,1
+sick,1
+relieve,1
+knee,1
+lift,1
+ongoing,1
+controlled,1
+experienced arm,1
+oropharyngeal pain,1
+continue,1
+nos spikevax,1
+relevant medical,1
+pain left,1
+doctor office,1
+couple,1
+worked,1
+oil,1
+relevant laboratory,1
+lab,1
+abdomen,1
+medical information,1
+dose patient,1
+vitamins,1
+previously received,1
+loud,1
+weeks receiving,1
+details patient,1
+ongoing notes,1
+covid shot,1
+neurologist,1
+pfizer-biontech,1
+position,1
+moderna booster,1
+general,1
+wife,1
+took dose,1
+minutes patient,1
+associated,1
+body pain,1
+time vaccination,1
+window,1
+medications included,1
+noise,1
+old,1
+team,1
+vaccines weeks,1
+clarified,1
+covid mrna,1
+injection batch,1
+evaluated physician,1
+mental,1
+date single,1
+possible,1
+prior covid,1
+cat__YEAR_2024,1
+comments based,1
+works,1
+dose unspecified,1
+examination,1
+vaccination medical,1
+saturday,1
+covid received,1
+gender received,1
+indication patient,1
+rate,1
+mar batch,1
+systemic dizziness,1
+walker,1
+swelling injection,1
+confusion,1
+urticaria,1
+unexpected event,1
+detailed concurrent,1
+site consumer,1
+pain neck,1
+non events,1
+swelling arm,1
+weeks patient,1
+aug,1
+mar,1
+detailed medical,1
+relevant concomitant,1
+date events,1
+wrist,1
+patient states,1
+outcomes,1
+event causal,1
+binary__AGE_YRS_MISSING,1
+reporter patient,1
+linked sender,1
+discussed,1
+extremities,1
+progressed,1
+unspecified route,1
+enrolled,1
+patient days,1
+excruciating,1
+excluded,1
+resident,1
+jan pm,1
+experience,1
+worsening,1
+jan dose,1
+day got,1
+covid got,1
+pt reports,1
+expired,1
+recurrence,1
+pmh,1
+mrna lot,1
+subsequently,1
+mar patient,1
+use provided,1
+taking,1
+causality assessment,1
+patient did,1
+comment,1
+doses moderna,1
+patients received,1
+vaccine route,1
+experienced severe,1
+medically,1
+apr,1

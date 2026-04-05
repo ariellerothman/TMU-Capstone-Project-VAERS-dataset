@@ -8,7 +8,6 @@ This project applies natural language processing (NLP) and predictive analytics 
 1. Can symptom narratives improve prediction of severe adverse event outcomes beyond structured demographic and medical history variables?
 2. Do unsupervised clustering methods identify stable adverse event phenotypes?
 3. Do reporting volumes, severity rates, and narrative clusters shift over time?
-4. Can NLP models distinguish COVID-19 from non-COVID-19 vaccine narratives?
 
 ---
 
@@ -25,7 +24,7 @@ This project applies natural language processing (NLP) and predictive analytics 
 ### Key Characteristics
 - **19.85%** classified as serious outcomes (composite: death, life-threatening, hospitalization, ER visit, disability)
 - **Structured variables:** Demographics (age, sex, state), vaccine info (manufacturer, type), dates, binary outcomes
-- **Unstructured variables:** Symptom narratives (~727 chars mean, ~313 chars median), medical history, allergies, medications, lab data, prior vaccinations
+- **Unstructured variables:** Symptom narratives, medical history, allergies, medications, lab data, prior vaccinations
 - **Missingness:** Moderate (11–14%) in numeric fields; high (50–70%) in free-text clinical context
 
 ---
@@ -153,23 +152,26 @@ Or open each notebook in VS Code / JupyterLab and run all cells in order.
 
 ### 2) Severity Prediction (`severity_prediction.ipynb`)
 - Load imputed engineered data and comorbidity indicators
-- Build NLP text features from symptom narratives (TF-IDF unigrams + bigrams)
+- Build NLP text features from symptom narratives
 - Remove leakage-prone terms from supervised text view
 - Combine structured + text features in pipeline
 - Train/evaluate: Logistic Regression, Decision Tree, Random Forest
 - Use stratified CV + grid search
-- Report PR-AUC, F1, precision, recall, confusion matrix
-- Export feature importance and model comparison outputs to `Outputs/`
+- Report PR-AUC, F1, precision, recall
+- Extract feature importance (structured and text signals separately)
+- Compare structured-only vs. structured+text feature sets
+- Measure computational efficiency and model stability across repeated CV folds
+- Export feature importance, model comparisons, efficiency metrics, and confidence intervals for PR-AUC differences to `Outputs/`
 
 ### 3) Clustering (`clustering_code.ipynb`)
-- Build cluster-optimized symptom narratives
-- TF-IDF + TruncatedSVD (LSA) dimensionality reduction
-- Select k with elbow + sampled silhouette
-- Assess stability with ARI across seeds
-- Fit final MiniBatchKMeans model
+- Build cluster-optimized symptom narratives (removing report boilerplate while retaining clinical signal)
+- TF-IDF + TruncatedSVD (LSA) dimensionality reduction (200 dimensions)
+- Select k with elbow + sampled silhouette metrics across candidate k values
+- Assess stability with Adjusted Rand Index (ARI) across random seeds and subsample sizes
+- Fit final MiniBatchKMeans model (k=8, default)
 - Interpret clusters via top reconstructed terms
-- Characterize clusters vs severity, age, sex, comorbidities, manufacturers
-- Export clustered dataset (`df_clean_with_clusters.csv`) for time-series stage
+- Characterize clusters across severity, age, sex, comorbidities, and manufacturers
+- Export clustered dataset (`df_clean_with_clusters.csv`) for time-series stage, plus detailed cluster summaries and stability diagnostics
 
 ### 4) Time Series Analysis (`time_series_analysis.ipynb`)
 - Aggregate monthly reporting volume (2020–2025)
@@ -200,15 +202,32 @@ All artifacts are written to `Outputs/`:
 | `df_clean_engineered.csv` | Data preparation | (fallback input for severity/clustering) |
 | `comorbidity_indicators.csv` | Data preparation | severity_prediction, clustering_code |
 | `data_dictionary.csv` | Data preparation | — |
-| `df_clean_with_clusters.csv` | clustering_code | time_series_analysis |
 | `supervised_model_comparison_raw_tfidf.csv` | severity_prediction | — |
-| `*_feature_importance_*.csv` | severity_prediction | — |
-| `cluster_top_terms_*.csv` | clustering_code | — |
-| `cluster_vs_*.csv` | clustering_code | — |
+| `structured_vs_raw_tfidf_comparison.csv` | severity_prediction | — |
+| `logreg_all_feature_coefficients_raw_tfidf.csv` | severity_prediction | — |
+| `logreg_top_positive_features_raw_tfidf.csv`, `logreg_top_negative_features_raw_tfidf.csv` | severity_prediction | — |
+| `logreg_top_positive_text_features_raw_tfidf.csv`, `logreg_top_negative_text_features_raw_tfidf.csv` | severity_prediction | — |
+| `random_forest_feature_importance_raw_tfidf.csv` | severity_prediction | — |
+| `decision_tree_feature_importance_raw_tfidf.csv`, `decision_tree_top_features_raw_tfidf.csv` | severity_prediction | — |
+| `decision_tree_rules_raw_tfidf.txt`, `decision_tree_top_structured_features_raw_tfidf.csv`, `decision_tree_top_text_features_raw_tfidf.csv` | severity_prediction | — |
+| `model_efficiency_times.csv`, `efficiency_report_table.csv` | severity_prediction | — |
+| `run_metadata.json` | severity_prediction | — |
+| `repeated_cv_supervised_models.csv`, `repeated_cv_supervised_models_summary.csv` | severity_prediction | — |
+| `heldout_pr_auc_scores.csv`, `pr_auc_paired_bootstrap_differences.csv` | severity_prediction | — |
+| `cluster_selection_metrics_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_stability_ari_by_sample_size_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_stability_ari_by_sample_size_summary_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_stability_ari_hist_by_sample_size_cluster_cleaned.png` | clustering_code | — |
+| `cluster_top_terms_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_summary_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_row_indices.npy`, `symptom_text_tfidf_cluster_cleaned.npz`, `tfidf_vocabulary_cluster_cleaned.csv` | clustering_code | — |
+| `symptom_text_lsa_200d_cluster_cleaned.npy`, `svd_components_200d_cluster_cleaned.npy` | clustering_code | — |
+| `cluster_vs_serious_cluster_cleaned.csv`, `cluster_vs_sex_cluster_cleaned.csv`, `cluster_vs_manufacturer_cluster_cleaned.csv`, `cluster_vs_comorbidities_cluster_cleaned.csv` | clustering_code | — |
+| `cluster_age_summary_cluster_cleaned.csv`, `cluster_sizes_cluster_cleaned.csv` | clustering_code | — |
+| `symptom_text_clean_variants_cluster_only.csv` | clustering_code | — |
+| `df_clean_with_clusters.csv` | clustering_code | time_series_analysis |
 | `monthly_report_count.csv`, `monthly_serious_proportion.csv` | Data preparation | time_series_analysis |
-| Figures (`.png`) | All notebooks | — |
-
----
+| `*.png` | All notebooks | — |
 
 ## Limitations
 

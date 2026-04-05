@@ -1,0 +1,4 @@
+model,training_rows,test_rows,feature_dims,fit_time_sec,predict_time_sec_mean,predict_time_sec_sd,notes
+LogisticRegression,320000,80000,5155,59.52629408298526,6.817457933421247,0.11132951376563416,python=3.12.10 | sklearn=1.6.1 | cpu_logical=8 | ram_gb=8.0
+RandomForest,320000,80000,5155,93.73699212505016,7.044024558411911,0.19381351058248325,python=3.12.10 | sklearn=1.6.1 | cpu_logical=8 | ram_gb=8.0
+DecisionTree,320000,80000,5155,143.336966709001,7.349475391767919,0.940113013637043,python=3.12.10 | sklearn=1.6.1 | cpu_logical=8 | ram_gb=8.0
