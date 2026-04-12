@@ -168,9 +168,10 @@ Or open each notebook in VS Code / JupyterLab and run all cells in order.
 - TF-IDF + TruncatedSVD (LSA) dimensionality reduction (200 dimensions)
 - Select k with elbow + sampled silhouette metrics across candidate k values
 - Assess stability with Adjusted Rand Index (ARI) across random seeds and subsample sizes
-- Fit final MiniBatchKMeans model (k=8, default)
-- Interpret clusters via top reconstructed terms
+- Fit final MiniBatchKMeans model on LSA-reduced symptom narratives
+- Interpret clusters via top reconstructed TF-IDF terms
 - Characterize clusters across severity, age, sex, comorbidities, and manufacturers
+- Generate per-cluster word clouds for visual phenotype summaries
 - Export clustered dataset (`df_clean_with_clusters.csv`) for time-series stage, plus detailed cluster summaries and stability diagnostics
 
 ### 4) Time Series Analysis (`time_series_analysis.ipynb`)
@@ -225,6 +226,7 @@ All artifacts are written to `Outputs/`:
 | `cluster_vs_serious_cluster_cleaned.csv`, `cluster_vs_sex_cluster_cleaned.csv`, `cluster_vs_manufacturer_cluster_cleaned.csv`, `cluster_vs_comorbidities_cluster_cleaned.csv` | clustering_code | — |
 | `cluster_age_summary_cluster_cleaned.csv`, `cluster_sizes_cluster_cleaned.csv` | clustering_code | — |
 | `symptom_text_clean_variants_cluster_only.csv` | clustering_code | — |
+| `cluster_wordclouds_cluster_cleaned.png` | clustering_code | — |
 | `df_clean_with_clusters.csv` | clustering_code | time_series_analysis |
 | `monthly_report_count.csv`, `monthly_serious_proportion.csv` | Data preparation | time_series_analysis |
 | `*.png` | All notebooks | — |

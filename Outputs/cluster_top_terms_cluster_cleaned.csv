@@ -1,161 +1,301 @@
 cluster,rank,term
-0,1,single
-0,2,immunisation
-0,3,relevant
-0,4,non
-0,5,immunisation relevant
-0,6,non-serious
-0,7,hcp
-0,8,onset
-0,9,non hcp
-0,10,consumer non
-0,11,single immunisation
-0,12,unspecified
-0,13,medically significant
-0,14,consumer
-0,15,included
-0,16,medically
-0,17,significant
-0,18,ongoing
-0,19,non-serious onset
-0,20,unspecified ongoing
-1,1,expired
-1,2,adverse
-1,3,fridge
-1,4,expired product
-1,5,expiration
-1,6,manufacturer
-1,7,vial
-1,8,error
-1,9,adverse effects
-1,10,maintained
-1,11,product expired
-1,12,time
-1,13,effects
-1,14,noted
-1,15,pt
-1,16,adverse reaction
-1,17,days
-1,18,error expired
-1,19,bud
-1,20,product
-2,1,pain
-2,2,arm
-2,3,headache
-2,4,fever
-2,5,site
-2,6,injection
+0,1,hours
+0,2,fever
+0,3,chills
+0,4,day
+0,5,headache
+0,6,nausea
+0,7,pain
+0,8,lasted
+0,9,fatigue
+0,10,severe
+0,11,symptoms
+0,12,days
+0,13,arm
+0,14,pm
+0,15,night
+0,16,sore
+0,17,fever chills
+0,18,started
+0,19,took
+0,20,morning
+1,1,single
+1,2,immunisation
+1,3,relevant
+1,4,onset
+1,5,immunisation relevant
+1,6,non
+1,7,non-serious
+1,8,hcp
+1,9,non hcp
+1,10,consumer non
+1,11,medically significant
+1,12,single immunisation
+1,13,medically
+1,14,significant
+1,15,non-serious onset
+1,16,ongoing
+1,17,unspecified ongoing
+1,18,included
+1,19,years
+1,20,consumer
+2,1,went
+2,2,chest
+2,3,started
+2,4,pain
+2,5,heart
+2,6,symptoms
 2,7,day
 2,8,days
-2,9,chills
-2,10,body
-2,11,hours
-2,12,rash
-2,13,injection site
-2,14,fatigue
-2,15,left
-2,16,aches
-2,17,swelling
-2,18,started
-2,19,symptoms
-2,20,red
-3,1,pt
-3,2,adverse
-3,3,error
-3,4,days
-3,5,hospital
-3,6,minutes
-3,7,time
-3,8,ml
-3,9,symptoms
-3,10,vaccination
-3,11,second
-3,12,acute
-3,13,instead
+2,9,breath
+2,10,like
+2,11,felt
+2,12,shortness
+2,13,blood
+2,14,shortness breath
+2,15,doctor
+2,16,home
+2,17,having
+2,18,got
+2,19,did
+2,20,chest pain
+3,1,days
+3,2,pain
+3,3,left
+3,4,right
+3,5,arm
+3,6,positive
+3,7,swelling
+3,8,error
+3,9,weeks
+3,10,developed
+3,11,severe
+3,12,symptoms
+3,13,acute
 3,14,receiving
-3,15,ed
-3,16,event
-3,17,home
-3,18,admitted
-3,19,stored
-3,20,nd
-4,1,ad cov
-4,2,cov
-4,3,ad
-4,4,height
-4,5,taken ad
-4,6,cov applicable
-4,7,injection route
-4,8,weight
-4,9,concerned
-4,10,cov injection
-4,11,applicable
-4,12,action taken
-4,13,unspecified
-4,14,action
-4,15,route
-4,16,non-serious
-4,17,injection
-4,18,height weight
-4,19,conditions
-4,20,taken
-5,1,prior
-5,2,vaccination
-5,3,events
-5,4,prior vaccination
-5,5,arm
-5,6,weeks
-5,7,included
-5,8,receive
-5,9,did
-5,10,did receive
-5,11,left
-5,12,immunisation
-5,13,age
-5,14,attempts
-5,15,tested
-5,16,diagnosed
-5,17,vaccination tested
-5,18,follow-up attempts
-5,19,weeks prior
-5,20,year-old
-6,1,positive
-6,2,tested positive
-6,3,tested
-6,4,test
-6,5,vaccinated
-6,6,symptoms
-6,7,cough
-6,8,positive test
-6,9,test positive
-6,10,home
-6,11,days
-6,12,admitted
-6,13,negative
-6,14,fully vaccinated
-6,15,fully
-6,16,hospital
-6,17,pt
-6,18,pcr
-6,19,sars-cov
-6,20,congestion
-7,1,product
-7,2,expired product
-7,3,expired
-7,4,causality
-7,5,spontaneous
-7,6,causality assessments
-7,7,assessments
-7,8,did provide
-7,9,provide causality
-7,10,provide
-7,11,route
-7,12,did
-7,13,treatment
-7,14,time
-7,15,vaccination
-7,16,year-old
-7,17,product expired
-7,18,vial
-7,19,resolved
-7,20,assessments treatment
+3,15,shot
+3,16,numbness
+3,17,tingling
+3,18,breakthrough
+3,19,vaccinated
+3,20,second
+4,1,site
+4,2,injection site
+4,3,injection
+4,4,pain
+4,5,swelling
+4,6,redness
+4,7,site pain
+4,8,arm
+4,9,vaccination site
+4,10,pain injection
+4,11,vaccination
+4,12,soreness
+4,13,itching
+4,14,swelling injection
+4,15,erythema
+4,16,red
+4,17,sore
+4,18,headache
+4,19,days
+4,20,site swelling
+5,1,adverse
+5,2,ml
+5,3,instead
+5,4,error
+5,5,bivalent
+5,6,vial
+5,7,adverse event
+5,8,event
+5,9,adverse reaction
+5,10,old
+5,11,age
+5,12,years
+5,13,monovalent
+5,14,pediatric
+5,15,effects
+5,16,reaction
+5,17,reactions
+5,18,adverse reactions
+5,19,incorrect
+5,20,time
+6,1,pt
+6,2,ed
+6,3,hospital
+6,4,home
+6,5,states
+6,6,positive
+6,7,symptoms
+6,8,admitted
+6,9,bp
+6,10,sob
+6,11,pt states
+6,12,reports
+6,13,minutes
+6,14,called
+6,15,hr
+6,16,ems
+6,17,presented
+6,18,stated
+6,19,pain
+6,20,feeling
+7,1,spontaneous
+7,2,time
+7,3,vaccination
+7,4,spontaneous consumer
+7,5,treatment
+7,6,route
+7,7,action taken
+7,8,action
+7,9,consumer
+7,10,taken
+7,11,year-old
+7,12,included
+7,13,pain
+7,14,female
+7,15,product
+7,16,second
+7,17,resolved
+7,18,mar
+7,19,dosage
+7,20,dosage changed
+8,1,unspecified
+8,2,events
+8,3,prior
+8,4,vaccination
+8,5,age
+8,6,arm
+8,7,solution
+8,8,solution injection
+8,9,included
+8,10,consumer
+8,11,attempts
+8,12,follow-up attempts
+8,13,follow-up
+8,14,immunisation
+8,15,prior vaccination
+8,16,injection
+8,17,immunization
+8,18,weeks
+8,19,event
+8,20,did
+9,1,ad cov
+9,2,cov
+9,3,ad
+9,4,height
+9,5,taken ad
+9,6,cov applicable
+9,7,injection route
+9,8,weight
+9,9,concerned
+9,10,cov injection
+9,11,applicable
+9,12,action taken
+9,13,unspecified
+9,14,action
+9,15,route
+9,16,non-serious
+9,17,injection
+9,18,height weight
+9,19,conditions
+9,20,taken
+10,1,rash
+10,2,red
+10,3,itchy
+10,4,site
+10,5,arm
+10,6,injection
+10,7,injection site
+10,8,days
+10,9,area
+10,10,touch
+10,11,swollen
+10,12,itching
+10,13,warm
+10,14,day
+10,15,red rash
+10,16,hot
+10,17,raised
+10,18,large
+10,19,left
+10,20,inches
+11,1,expired
+11,2,expired product
+11,3,product
+11,4,vial
+11,5,causality
+11,6,product expired
+11,7,assessments
+11,8,causality assessments
+11,9,provide causality
+11,10,did provide
+11,11,temperature
+11,12,refrigerator
+11,13,provide
+11,14,error
+11,15,excursion
+11,16,temperature excursion
+11,17,adverse
+11,18,doses
+11,19,patients
+11,20,route
+12,1,aches
+12,2,headache
+12,3,body
+12,4,body aches
+12,5,chills
+12,6,fever
+12,7,fatigue
+12,8,narrative
+12,9,nausea
+12,10,myalgia
+12,11,muscle
+12,12,fever chills
+12,13,pain
+12,14,headache myalgia
+12,15,chills body
+12,16,muscle aches
+12,17,severe
+12,18,aches headache
+12,19,fever body
+12,20,aches chills
+13,1,minutes
+13,2,bp
+13,3,felt
+13,4,called
+13,5,feeling
+13,6,ems
+13,7,hr
+13,8,dizzy
+13,9,water
+13,10,home
+13,11,observation
+13,12,better
+13,13,stated
+13,14,receiving
+13,15,fainted
+13,16,symptoms
+13,17,vitals
+13,18,dizziness
+13,19,sat
+13,20,pulse
+14,1,stored
+14,2,freezer
+14,3,recommended
+14,4,storage
+14,5,storage unit
+14,6,unapproved
+14,7,unapproved storage
+14,8,stored unapproved
+14,9,unit
+14,10,stored freezer
+14,11,temperature
+14,12,manufacturer
+14,13,refrigerated
+14,14,determined
+14,15,days
+14,16,repeat
+14,17,excursion
+14,18,time
+14,19,longer
+14,20,outside
